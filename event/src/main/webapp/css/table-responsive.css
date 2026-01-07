@@ -1,0 +1,28 @@
+ 
+   
+        #bootstrap-data-table-export_wrapper {margin-top: 45px !important;}
+        .bootstrap-data-table-panel .dataTables_filter { position: absolute;right: 22px !important;top: 21px !important;}
+        .dataTables_length {position: absolute;left: 22px!important; top: 23px;}
+        .dt-buttons {position: absolute !important;left: 210px;top: 23px;}
+        .dataTables_info {position: absolute;left: 17px !important;bottom: 41px !important;}
+        .dataTables_paginate ul.pagination { position: absolute;right: 22px !important;bottom: 35px !important;}
+        .dataTables_paginate { margin-top: 55px !important;}
+   
+    @media only screen and (max-width: 1024px) and (min-width: 668px) {
+        #bootstrap-data-table-export_wrapper { margin-top: 104px !important;}
+        .bootstrap-data-table-panel .dataTables_filter {top: 71px !important;}
+        .dataTables_length {top: 21px !important;}
+        .dt-buttons {right: 125px !important;top: 22px !important;}
+         
+    }
+
+    @media only screen and (max-width: 667px) and (min-width: 320px) {
+        #bootstrap-data-table-export_wrapper {margin-top: 211px !important;}
+        .bootstrap-data-table-panel .dataTables_filter {top: 174px !important;}
+        .dataTables_length {left: 22px;top: 22px;}
+        .dt-buttons { top: 78px !important;left: 0 !important;}
+        .dataTables_info {left: 4px;bottom: 38px;}
+        .dataTables_paginate ul.pagination { right: 10px; bottom: 27px;}
+    }
+ 
+    

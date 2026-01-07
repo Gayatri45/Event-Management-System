@@ -1,0 +1,227 @@
+body {
+    background-color: #fff !important;
+}
+
+a {
+    transition: all .25s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* slide */
+.slide {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide1 {
+    background: linear-gradient(180deg, hsla(0, 0%, 60%, 0) 0, #000), url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide2 {
+    background: linear-gradient(180deg, hsla(0, 0%, 60%, 0) 0, #000), url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide .display-3 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.page-title-bg{
+	background: #f2f6f9;
+	padding: 30px 0;
+}
+.event-section .card-event:hover {
+    transform: translateY(-5px);
+    transition: all .5s;
+}
+
+.event-section .card-event:hover .card-icon img {
+    margin-top: -20px;
+}
+
+.event-section .card-event {
+    border: 1px solid #f2f2f4;
+    top: 0;
+    background: #ffffff;
+    -webkit-box-shadow: 4.871px 34.659px 30px 0px rgb(0 0 0 / 6%);
+    -moz-box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 4.871px 34.659px 30px 0px rgb(0 0 0 / 6%);
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 0 30px 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.event-section .card-icon img {
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.event-section .card-event img {
+	display: block;
+    height: 200px;
+    object-fit: contain;
+    margin: auto;
+	}
+
+.event-section .card .card-title {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.event-section .card .event-description {
+    font-size: 1rem;
+    color: #000;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.date-and-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.event-price {
+    color: #f11c1c;
+}
+
+.event-date {
+    font-size: 12px;
+    color: #000;
+}
+
+.event-date-hilight {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 0 4px 15px 0 rgba(40, 44, 53, .06), 0 2px 2px 0 rgba(40, 44, 53, .08);
+    z-index: 3;
+    font-size: 12px;
+    opacity: .97;
+}
+
+.card-event .event-date-hilight .event-month {
+    position: relative;
+    padding: 5px 17px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #f67611;
+    color: #fff;
+}
+
+.card-event .event-date-hilight .event-day {
+    font-weight: 900;
+    padding: 10px 17px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #fff;
+}
+
+.event-category {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    background: #c2c2c2;
+    color: #7f818e;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0.625rem 1.25rem;
+    box-shadow: 0 4px 15px 0 rgba(40, 44, 53, .06), 0 2px 2px 0 rgba(40, 44, 53, .08);
+    z-index: 3;
+}
+
+.card-banner {
+    position: relative;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.card-banner .card-body {
+    z-index: 10;
+}
+
+.card-banner,
+.card-banner .card-body {
+    position: relative;
+    background-size: cover;
+}
+
+.img-lazy-load.b-loaded {
+    opacity: 1;
+}
+
+.img-lazy-load {
+    transition: opacity .3s ease-in-out;
+    max-width: 100%;
+    opacity: .5;
+}
+
+.card-banner .text-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    border-radius: 0 0 0.25rem 0.25rem;
+    background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, .8));
+
+}
+
+.card-banner .text-bottom .title {
+    color: #fff;
+    padding: 30px 20px 7px;
+
+}
+
+.zoom-in,
+.zoom-wrap:hover .zoom-in {
+    transition: transform .3s ease;
+}
+
+.zoom-wrap:hover .zoom-in {
+    transform: scale(1.1);
+}

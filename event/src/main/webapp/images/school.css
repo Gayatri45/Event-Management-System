@@ -1,0 +1,151 @@
+#accordion h5 {
+    display: block;
+    cursor: pointer;
+    padding: 0.75rem 1.25rem;
+    color: #fff !important;
+    font-weight: 500;
+    background: #3aa6dd;
+}
+
+#accordion h5:after {
+    font-family: 'FontAwesome';
+    content: "\f106";
+    float: right;
+    transition: -webkit-transform 0.3s ease;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#accordion h5.collapsed:after {
+    content: "\f106";
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.heading-h5 {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff !important;
+    font-weight: 500;
+    background: #3aa6dd;
+}
+
+
+/* ======================ID CARD CSS==================================================== */
+.id-card-box {
+    background: #fff;
+    margin: 10px 0;
+}
+.header-id {
+    background: #70b0e7;
+    padding: 6px 8px;
+}
+.student-img img {
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 1.02;
+    width: 35.166666667mm;
+    flex: 80px 0 0;
+    height: 35.166666667mm;
+    margin: auto;
+    padding: 3px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    border: 3px solid #fff;
+}
+
+.student-data h3 {
+    line-height:1.02;
+     margin-top: 0;
+      margin-bottom: 3px;
+       font-size:15px; 
+       font-weight:500
+}
+.student-signature {
+    clip-path: polygon(79.25% 1%, 100% 0%, 100% 100%, 0% 646%);
+     background-color: #77aee4;
+    text-align: end;
+    padding: 9px 9px 2px 0px;
+}
+
+.student-signature img {
+    width: 50px;  
+}
+
+.st-sig {
+    border-bottom: 16px solid #77aee4;
+}
+
+/* ====================== CERTIFICATE CSS START =========================== */
+
+.DivBody {
+    /* height: 611px; */
+    /* padding-top: 10px; */
+    /* border: 1px solid white !important; */
+    position: relative;
+}
+.table-box {
+    position: absolute;
+    top: 120px;
+}
+.tdBody {
+    text-align: justify !important;
+    height: 140px;
+    font-size: 19px;
+}
+td.tdWidth {
+    font-size: 19px;
+}
+
+
+/* ===================================WATER MARK CSS START========================================== */
+
+.water-mark-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.water-mark-img img {
+    opacity: 0.1;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .table-box {
+        position: absolute;
+        top: 38px;
+    }
+    .tdBody {
+        text-align: justify !important;
+        height: 140px;
+        font-size: 10px;
+    }
+    td.tdWidth {
+        font-size: 10px;
+    }
+    .water-mark-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+         justify-content: center; 
+        align-items: center;
+    }
+   
+
+}
+

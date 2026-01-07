@@ -1,0 +1,91 @@
+@media screen {
+    #printSection {
+        display: none;
+    }
+}
+@media print {
+    body * {
+        visibility:hidden;         
+    }
+
+    #printSection, #printSection * {
+        visibility:visible;
+    }
+    #printSection {
+        position:absolute;
+        left:0;
+        top:0;  
+        right: 0;   
+    }  
+
+}
+@media (min-width: 1199px){
+    .modal-lg {
+        width: 1170px;
+    }
+}
+/*End management Report print*/
+
+/*Report degisn*/
+.mgt-header{
+    color: #373757;
+    font-size: 20px;
+    font-weight: bold;
+}
+.company-header{
+    color: #373757;
+    font-size: 16px;
+    font-weight: bold;
+}
+.company-total{
+    color: #373757;
+    font-size: 14px;
+    font-weight: bold;  
+}
+.all-company-header{
+    font-size: 16px;
+    font-weight: bold;  
+}
+.all-company-amount{
+    font-size: 18px;
+    color: #373757;
+    font-weight: bold;
+}
+.amount-anchor  a{
+    font-size: 14px;
+    font-weight: bold;
+    color:mediumblue;
+    /*text-decoration: underline;*/
+}
+.pending-age-red{
+    color: #fff !important;
+    background-color: #dc3545;
+    font-weight: bold;
+}
+.pending-age-blue{
+    color: #fff !important;
+    background-color: #5873fe;
+    font-weight: bold;
+}
+.table-no-border{
+    border:0px;
+}
+.tax-row-total{
+    border: 0px;
+    color: #000;
+    padding: 0px 5px 0px;
+}
+table tr td{
+    color:#000;
+}
+.mgt-repo-branch{
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tfootTotal{
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: bold !important; 
+}

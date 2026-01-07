@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2020, 10:32:54 AM
+    Author     : AD1
+*/
+/*//Dashboard Card (Sandeep Singh @28052020)*/
+
+#invoiceChat {
+    width : 100% ;
+    height : 500px;
+}
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 15px;
+    /*margin: 20px 0px;*/
+}
+.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.card-box:hover .icon i {
+    font-size: 100px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+.card-box h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+}
+.card-box p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.card-box .icon {
+    /*//position: absolute;*/
+    /*position:  relative;*/
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    z-index: 0;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.15);
+}
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+.card-box .inner table td {
+   font-size: 17px;
+   color: #fff;
+}
+.card-box .inner table th {
+   font-size: 20px;
+   color: #000;
+}
+.card-box:hover .card-box-footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+.bg-blue {
+    background-color: #00c0ef !important;
+}
+.bg-green {
+    background-color: #00a65a !important;
+}
+
+.bg-texture {
+    background-image: url('../images/bg.png') !important; 
+}
+.bg-orange {   
+    background-color: #f39c12 !important;
+}
+.bg-red {
+    background-color: #d9534f !important;
+}
+.bg-yellow {
+    background-color: #d58512 !important;
+}
+.bg-grey {
+    background-color: gray !important;
+}
+.bg-gold {
+    background-color: goldenrod !important;
+}
+.vertical-line{
+    border-right: 2px dashed grey;height: 365px;
+}
+.bg-blue {   
+    background-color: #009efb !important;
+}
